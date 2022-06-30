@@ -3561,7 +3561,7 @@ const atrees = {
                     "type": "replace_spell",
                     "name": "Sparkling Hope",
                     "display_text": "Sparkling Hope",
-                    "base_spell": 6,
+                    "base_spell": 7,
                     "display": "Damage Tick",
                     "parts": [
                         {
