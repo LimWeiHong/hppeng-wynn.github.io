@@ -1168,7 +1168,7 @@ const atrees = {
         {
             "display_name": "Air Mastery",
             "desc": "Increases base damage from all Air attacks",
-            "archetype": "Battle Monk", 
+            "archetype": "Boltslinger", 
             "archetype_req": 0, 
             "parents": ["Arrow Storm"], 
             "dependencies": [], 
@@ -1252,7 +1252,7 @@ const atrees = {
         {
             "display_name": "Stormy Feet",
             "desc": "Windy Feet will last longer and add more speed.",
-            "archetype": "", 
+            "archetype": "Boltslinger", 
             "archetype_req": 0, 
             "parents": ["Windstorm"], 
             "dependencies": ["Windy Feet"], 
@@ -1573,7 +1573,7 @@ const atrees = {
         {
             "display_name": "Homing Shots",
             "desc": "Your Main Attack arrows will follow nearby enemies and not be affected by gravity",
-            "archetype": "",
+            "archetype": "Sharpshooter",
             "archetype_req": 0,
             "parents": ["Leap", "Shocking Bomb"],
             "dependencies": [],
@@ -1745,7 +1745,7 @@ const atrees = {
             "archetype": "Sharpshooter",
             "archetype_req": 0,
             "parents": ["Cheaper Arrow Storm", "Grappling Hook"],
-            "dependencies": [],
+            "dependencies": ["Focus"],
             "blockers": [],
             "cost": 1,
             "display": {
@@ -1776,7 +1776,7 @@ const atrees = {
             "archetype": "Sharpshooter",
             "archetype_req": 0,
             "parents": ["Crepuscular Ray", "Snow Storm"],
-            "dependencies": [],
+            "dependencies": ["Focus"],
             "blockers": [],
             "cost": 1,
             "display": {
